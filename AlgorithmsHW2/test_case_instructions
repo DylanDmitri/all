@@ -1,0 +1,15 @@
+run with this main
+
+def main():
+    graph = {
+        1 : [3, 4],
+        2 : [],
+        3 : [2],
+        4 : [1, 3]
+    }
+
+    #// for the diameter one
+    print(diameter(graph))
+
+    #// for the cyclical one
+    checkGraph(graph)

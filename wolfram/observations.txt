@@ -1,0 +1,43 @@
+
+stable configs include
+
+4 grids + faults
+
+x = 18, y = 49, rule = W110:T18,0
+3b5obob3o2b2o$2b2o3b5obob3o$b3o2b2o3b5obo$2obob3o2b2o3b3o$b5obob3o2b2o
+$2o3b5obob3o$2o2b2o3b5obobo$bob3o2b2o3b5o$4obob3o2b2o3bo$3b5obob3o2b2o
+$2b2o3b5obob3o$b3o2b2o3b5obo$2obob3o2b2o3b3o$b5obob3o2b2o$2o3b5obob3o$
+2o2b2o3b5obobo$bob3o2b2o3b5o$4obob3o2b2o3bo$3b5obob3o2b2o$2b2o3b5obob
+3o$b3o2b2o3b5obo$2obob3o2b2o3b3o$b5obob3o2b2o$2o3b5obob3o$2o2b2o3b5obo
+bo$bob3o2b2o3b5o$4obob3o2b2o3bo$3b5obob3o2b2o$2b2o3b5obob3o$b3o2b2o3b
+5obo$2obob3o2b2o3b3o$b5obob3o2b2o$2o3b5obob3o$2o2b2o3b5obobo$bob3o2b2o
+3b5o$4obob3o2b2o3bo$3b5obob3o2b2o$2b2o3b5obob3o$b3o2b2o3b5obo$2obob3o
+2b2o3b3o$b5obob3o2b2o$2o3b5obob3o$2o2b2o3b5obobo$bob3o2b2o3b5o$4obob3o
+2b2o3bo$3b5obob3o2b2o$2b2o3b5obob3o$b3o2b2o3b5obo$2obob3o2b2o3b3o!
+
+
+
+running in a T60
+
+stationary 6 tri
+colliding with slow left drip
+at regular intervals
+
+4 adjacent leftward faults
+
+rightward triple fault???
+ob5o3bo2b2ob5o3b3obo2b2ob5o3bo2b2ob5o3bo2bo$3o3bo2b2ob5o3bo2b2ob3ob5o
+3bo2b2ob5o3bo2b2ob2o$2bo2b2ob5o3bo2b2ob5ob3o3bo2b2ob5o3bo2b2ob5o$b2ob
+5o3bo2b2ob5o3b3obo2b2ob5o3bo2b2ob5o3bo$5o3bo2b2ob5o3bo2b2ob3ob5o3bo2b
+2ob5o3bo2b2o$o3bo2b2ob5o3bo2b2ob5ob3o3bo2b2ob5o3bo2b2ob4o$o2b2ob5o3bo
+2b2ob5o3b3obo2b2ob5o3bo2b2ob5o!
+
+
+running in T64
+rightward hexa fault
+
+single left fault
+
+
+T60 and T18 both
+have a triple rightward fault 

@@ -1,0 +1,24 @@
+Sheets = ('Mortage Calculator', 'Amortization Table')
+
+Table.set_format(
+    title = format(background=dark_blue, text=white),
+    body = format(background=cream)
+)
+
+Sheet('Mortage Calculator',
+    rows = (
+        title(
+            background=light_green,
+            content=text(size=40, color=white)
+            ),
+        cols(
+            Table(
+                INPUTS = ('Purchase Price', 'Interest Rate', 'Duration of Loan (months)',
+                            'Loan Amount', 'Loan Start Date'),
+                untitled
+
+
+
+
+
+

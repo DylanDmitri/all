@@ -1,0 +1,35 @@
+            SHORT-RANGE SCAN. . . . . . . . . . . . . . . .   5
+            STATUS REPORT . . . . . . . . . . . . . . . . .   6
+            LONG-RANGE SCAN . . . . . . . . . . . . . . . .   7
+            STAR CHART. . . . . . . . . . . . . . . . . . .   8
+            DAMAGE REPORT . . . . . . . . . . . . . . . . .   8
+            MOVE UNDER WARP DRIVE . . . . . . . . . . . . .   9
+            WARP FACTOR . . . . . . . . . . . . . . . . . .  10
+            IMPULSE ENGINES . . . . . . . . . . . . . . . .  10
+            DEFLECTOR SHIELDS . . . . . . . . . . . . . . .  11
+            PHASERS . . . . . . . . . . . . . . . . . . . .  12
+            REPORT. . . . . . . . . . . . . . . . . . . . .  13
+            COMPUTER. . . . . . . . . . . . . . . . . . . .  13
+            PHOTON TORPEDOES. . . . . . . . . . . . . . . .  14
+            DOCK AT STARBASE. . . . . . . . . . . . . . . .  15
+            REST. . . . . . . . . . . . . . . . . . . . . .  15
+            CALL STARBASE FOR HELP. . . . . . . . . . . . .  15
+            ABANDON SHIP. . . . . . . . . . . . . . . . . .  16
+            SELF-DESTRUCT . . . . . . . . . . . . . . . . .  16
+            TERMINATE THE CURRENT GAME. . . . . . . . . . .  16
+            SENSOR-SCAN . . . . . . . . . . . . . . . . . .  17
+            ENTER STANDARD ORBIT. . . . . . . . . . . . . .  17
+            TRANSPORTER-TRAVEL. . . . . . . . . . . . . . .  17
+            SHUTTLE CRAFT . . . . . . . . . . . . . . . . .  18
+            MINE DILITHIUM CRYSTALS . . . . . . . . . . . .  18
+            LOAD DILITHIUM CRYSTALS . . . . . . . . . . . .  18
+            PLANET REPORT . . . . . . . . . . . . . . . . .  19
+            FREEZE. . . . . . . . . . . . . . . . . . . . .  19
+            REQUEST . . . . . . . . . . . . . . . . . . . .  20
+            EXPERIMENTAL DEATH RAY. . . . . . . . . . . . .  20
+            LAUNCH DEEP SPACE PROBE . . . . . . . . . . . .  21
+            EMERGENCY EXIT. . . . . . . . . . . . . . . . .  21
+            ASK FOR HELP. . . . . . . . . . . . . . . . . .  21
+            CLOAKING DEVICE . . . . . . . . . . . . . . . .  22
+            CAPTURE KLINGONS  . . . . . . . . . . . . . . .  22
+            GET THE SCORE . . . . . . . . . . . . . . . . .  22

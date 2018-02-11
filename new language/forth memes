@@ -1,0 +1,102 @@
+
+
+yards_to_inches -> 36 *
+
+even? -> %2
+
+
+3 even?
+False
+
+
+
+sum 1..1000 except %3|5
+
+between? b c -> (>b and <c)
+
+day? -> between? 1 31
+
+
+okbox? -> greater_than each 6,22,19
+
+okbox? 7 23 20 ===== TRUE
+okbox? 6 23 20 ===== FALSE
+
+okbox? 4 5 ======= Partial 'okbox'. Expects one number.
+
+
+
+substring of two match
+
+    string substrings -> string[i..i+size] @ 1..(len string -1)
+
+    "hello" substrings 2
+
+    substring_match ->
+
+
+
+
+if sum(self.roles) == 1:
+    self.which_role_has_bonus = self.roles.index(1)
+    self.bonus_amount += 1
+    self.roles = [1 for _ in range(7)]
+
+    if self.game_end:
+        # TODO: SCORING
+        self.state = State.draw
+        return
+
+self.possible = tuple(i for i in role.all if self.roles[i])
+self.state = State.role_choice
+
+
+
+'hello ' repeat 3 <====> 'hello hello hello'
+
+<iterable> repeat <integer> -> <iterable>
+iterable<T> @ iterable<integer> -> iterable<T>
+iterable<T> @ integer -> T
+
+front_times -> @..3 repeat
+
+array123 -> 1&2&3 in
+
+
+
+
+bottles int -> string
+bottles num >> switch num
+    =0 "no more bottles"
+    =1 "1 bottle"
+    else "{num} bottles"
+
+wall >> "{bottles} on the wall"
+action >> switch
+    =0 "Go to the store and buy some more"
+    else "Take one down and pass it around"
+
+
+verse >>
+    "{wall}, {bottles}."
+    "{action}, {wall}."
+    ""
+
+print ~ verse ~ (99..0 : 99)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

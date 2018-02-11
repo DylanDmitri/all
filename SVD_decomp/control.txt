@@ -1,0 +1,13 @@
+image: corruption.png
+terms: 5, 10, 20, 30
+
+To make the compressions, set the settings above.
+Then run:
+    image_reader.py
+    compressor.py
+    image_writer.py
+in that order.
+
+compressor.py requires numpy to be installed
+image_(reader/writer).py require pypng to be installed
+the image to compress must be within this relative pathing

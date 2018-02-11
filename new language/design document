@@ -1,0 +1,335 @@
+sum 1..1000 where multiple 3|5
+
+a series of words.
+each is an atom prefix_ _suffix or _infix_
+also they have typings
+
+these words are assembled into an abstract syntax tree
+if there is any ambiguity compilation fails
+
+
+
+
+superfast to code
+code looks fucking glorious
+
+
+compiles into Python for now (rip.zip)
+
+a -> b      // non lazy evaluation
+a >> b      // b evaluated each time a is referenced.
+
+d6 -> random 1..6     // always 4 or something
+d6 >> random 1..6     // proper behavior
+
+d6 ==> 2
+d6 ==> 6
+`d6` ==> atom(d6)
+
+stuff expects types
+parsing is done off of expected types, function formats, etc
+
+
+sum int @ list input
+
+
+sum _list >> join list +
+
+join _list _func) >>
+ result -> list!0
+ (result <- func) @ list!1..
+
+
+
+
+HELLO WORLD
+print("hello world")
+print "hello world"
+
+
+GREET
+name = input("What is your name? ")
+print("hello", name)
+
+name -> input "What is your name?"
+print "hello {name}"
+
+(-> name (input "WWWW"))
+(print "hello {name}")
+
+
+
+GREET CRYPTO
+name = input("What is your name? ")
+if name in ('Alice', 'Bob'):
+  print("hello", name)
+else:
+  print("hello there!")
+
+name -> input "What is your name?"
+
+
+
+
+TRIANGULAR NUMBER
+print(sum(range(1, int(input('max: ')))))
+
+print sum (1 .. input "max: ")
+
+
+
+MULT 3 or 5 TRIANGULAR NUMBER
+
+total = 0
+for i in range(1, int(input('max: '))):
+  total += i if 0 in (i%3, i%5) else 0
+print total
+
+nums = range(1, int(input('max: ')))
+print(sum(i for i in nums if 0 in (i%3, i%5)))
+
+print sum (1 .. input "max: ") where multiple 3|5
+
+
+
+
+SUM or PRODUCT 1..N
+
+func -> input "Sum or multiply? "
+		allowed:sum|multiply
+val -> input "largest number? "
+func 1..val#
+
+if args?
+
+
+
+
+
+
+
+need a comparison thingy
+ if given an atom, return atom=
+ if given a suffix, return
+
+
+
+# num
+? bool
+
+
+inert
+prefix_
+_infix_
+_suffix
+
+
+
+define sum_
+sum_ list -> join list +
+
+
+define join
+join_ (list _func_) :: result
+ result->list!0
+ (result <- func) @ list!1..
+
+
+
+
+
+result <- +1  #inert
+result <- +   #prefix
+
+result -> 0
+define increment
+increment_ n
+ global.result <- +
+
+
+increment
+
+
+
+sum 1..1000 where multiple 3|5
+
+^2 @ 1..20
+
+list!odd
+list!0
+
+list!something
+return a list where
+
+
+
+factors -> []
+loop i 2..
+  if not multiple any factors   #kreygasm
+    factors append i
+    print i
+
+
+ask >> input!int "What do you guess? "
+game_ limit >>
+ secret -> choice 1..limit
+ for guess 1..
+   choice ask
+     >secret: print "too high"
+     <secret: print "too low"
+     =secret: print "congrats
+       print "in all a maximum of {log!2 limit} guesses where needed"
+       print "you used {guess}"
+       exit
+game 100
+
+
+~`!@#$%^&*
+-_=+|\;:'",./?
+() [] {} <>
+
+
+` good for literals
+
+sum @ int~values
+
+~=
+~>
+>>
+->
+
+.. good for ranges
+list splitting [1..20]
+
+
+~ has to do with for loops
+
+[inp] print 1..3
+[out] [1, 2, 3]
+
+[inp] print ~ 1..3
+[out] 1
+      2
+      3
+
+
+: for attatching like haskell
+
+? # for quickcast
+
+
+
+from random import choice
+
+secret -> choice 1..100
+
+loop guess 5..1 do
+    print 'you have {guess} tries left'
+
+    decision
+        input:int 'what do you choose: '
+        < secret -> print 'too low'
+        > secret -> print 'too high'
+        = secret -> do
+            print 'congrats'
+            exit
+
+
+
+from random import choice
+secret = choice(range(100))
+
+for guess in range(5, 0, -1):
+    print 'you have %s tries left' % guess
+
+    choice = input('what do you choose: ')
+    if choice < secret: print 'too low'
+    elif choice > secret: print 'too high'
+    else:
+        print 'congrats'
+        exit()
+
+
+
+class fib(list):
+    def __init__(self):
+        list.__init__(self, [0, 1])
+    def __call__(self, item):
+        assert type(item) is int
+        while len(self) <= item:
+            self.append(self[-1] + self[-2])
+        return self[item]
+
+
+fib >> [0 -> 1, 1 -> 1,
+       _n -> self[n-1]+self[n-2]]
+
+
+
+prices >> ['apple' -> .40, 'banana' -> .55, 'pear' -> .80]
+purchase >> ['banana' -> 3, 'apple' -> 2]
+
+bill = sum: zipwith (*) purchase prices
+
+zipwith _func _iter1 _iter2 >>
+  (func iter1[_] iter2[_]) ~ iter1.keys
+
+zip >> zipwith \[_a, _b]
+
+# damn that's good
+
+
+quicksort list:xs >> sum quicksort (xs where _ xs!0)@[< = >]
+
+
+
+namespace project structure
+
+
+
+fizzbuzz int:start int:end >>
+	start..end ~ print sum
+	    _i%3 ? "fizz"
+	    _i%5 ? "buzz"
+	    not _i%3|5 ? _i
+
+fizzbuzz 0 20
+
+
+(>> (fizzbuzz (: int start) (:int end))
+    (~ (.. start end) (print \(sum
+        [
+         (? (% _i 3) "fizz")
+         (? (% _i 5) "buzz")
+         (? (not (% _1 (| 3 5))) _1)
+        ]))
+    )
+)
+
+sum 1..1000 where (not %3|5)
+
+(sum (where (.. 1 1000) \(% _x (| 3 5))))
+
+
+_iterable where _func >>
+
+iterable _where_ func_
+
+sum_   i _.._ 1000
+ _where_
+not_
+
+
+
+there's a thing
+a thing has 0+ parameters
+    parameters are both named and positional
+each parameter is "filled" or "unfilled"
+thing has a "call" which returns its value
+
+
+a >> print "hello"
+a -> print "hello"
+
+
+

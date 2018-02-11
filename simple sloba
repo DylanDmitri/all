@@ -1,0 +1,143 @@
+
+
+each hero has
+    gold
+    experience
+
+each unit is on one and only one hex
+each hex contains one and only one unit
+
+each hero has a level, 1 through 5
+
+level 1
+level 2
+level 3
+level 4
+level 5     (max, no xp gained)
+
+start at lv1 with 1 xp
+when total xp is "5", you are lv2
+when total xp is "10", you are 1v3
+
+
+total xp
+ 1
+ 5  become level 2
+10  become level 3
+15  become level 4
+20  become level 5
+
+
+
+
+
+
+
+
+
+
+Lux - Mage
+
+        hp   mana/round
+Base     5   0
+level2   8   1
+level3  11   1
+level4  14   2
+level5  17   2
+
+QWER share mana pools.
+
+(Q) Light Binding
+    at most 1 card in hand; discard on use
+    1 mana regen: restore 2 cards from discard
+
+    range 3 linear
+    initiative 12 : deals 1->4 magic damage, roots targets for 1 phase
+
+    (1xp) learn spell
+    (1xp) (1xp) (1xp) increase damage by per xp spent
+    (2xp) increase card maximum to 2
+
+(W) Prismatic Barrier
+    at most 1 card in hand; discard on use
+    1 mana regen: restore 2 cards from discard
+
+    range 3 linear
+    initiative 8 : give 1 shield card to each ally (may be discarded rather than hp)
+
+    (1xp) learn spell
+    (2xp) give two shield cards instead
+    (2xp) increase card maximum to 2
+
+(E) Lucent Singularity
+    at most 2 cards in hand; discard on use
+    1 mana regen: restore 1 card from discard
+
+    target enemy in range 3
+    initiative 8
+        Deals 1->2 magic damage.
+        Give this to enemy. "All initiatives -10. When you move, return this to Lux."
+
+    (1xp) learn spell
+    (1xp) increase damage dealt by 1, to a maximum of 2
+
+(R) Final Spark
+    at most 1 card in hand
+    comes with 3->1 cooldown cards
+    1 mana regen: restore cooldown stack from discard
+
+    range 9 linear
+    initiative 5 : deal 3->5 damage
+
+    (1xp) If this kills an enemy, use one less cooldown card.
+
+    lv2 (1xp) learn skill
+    lv3 (1xp) -1 cooldown and +1 damage
+    lv4 (1xp) -1 cooldown and +1 damage
+
+
+
+Witch Doctor - Mage
+
+        hp   mana/round
+Base     5   0
+level2   7   0
+level3   9   0
+level4  11   1
+level5  14   1
+
+Start with 1Q 1E cards in "charged" position.
+Each level up, you may add two extra cards to one of QE.
+
+Gasket
+
+
+Voodoo Restoration
+    At the start of each round
+        return up to 1/2/3/4 tokens from this charged pool to an uncharged state
+
+
+    (1xp) learn
+    (1xp) add another token to the "charged" pool
+
+
+
+
+
+health pot (50 gold)
+
+    at round start -
+        may be moved to your "active effects"
+
+    at round end -
+        if in active effects, you regain 1hp
+        discard this card
+
+
+
+
+
+
+
+
+

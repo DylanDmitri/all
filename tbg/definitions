@@ -1,0 +1,59 @@
+khyber
+
+
+
+
+
+
+
+you arrive at town: narration
+
+Information pieces:
+    dhl: location of Doria's house
+    dmo: doria moved out (lie)
+
+
+meet the mayor:
+    leaves after 2 interactions
+
+    ask about doria: yields info "location of doria's house" and "doria moved out (lie)"
+    insight
+        3 to spot the lie
+            "why are you lying?"
+        4 deduce the truth
+            "attack"
+            "threaten"
+    unlocks
+    can we visit? - sure it's empty, I mean, go ahead....?? - leaves
+
+    compliment - based on speech
+
+
+
+
+
+
+character
+
+race + stat + hobbies + background
+
+
+
+
+
+
+
+
+Background Knowledge about the marsh
+
+- mostly orcs, weak governance
+- xenophobic
+- house Tharashk are de-facto rulers, handle relations with outside
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+Default
+    0.5 hp regen
+
+
+Kobold
+    240 hp
+    0 armor
+    10-11 attack damage
+    1.35 attack time
+    6-8 gold
+    20 xp
+
+Kobold Soldier
+    325 hp
+    1 armor
+    14-15 attack damage
+    1.35 attack time
+    14-18 gold
+    20 xp
+
+Kobold Foreman
+    400 hp
+    1 armor
+    14-15 damage
+    1.35 attack time
+    20-25 gold
+    33 xp
+    Ability: Speed Aura
+        type: aura
+        900 radius
+        12 movespeed percent increase
+
+Hill Troll
+    500 hp
+    1 armor
+    28-37 damage
+    1.6 attack time
+    20-23 gold
+    33 xp
+
+Vhoul Assassin
+    370 hp
+    1 armor
+    30-36 damage
+    1.6 attack time
+    20-24 gold
+    33 xp
+    Envenomed Weapon
+        20 damage over 3 seconds
+
+
+

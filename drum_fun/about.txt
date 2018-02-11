@@ -1,0 +1,15 @@
+python 3.4 with pygame and getch
+
+goals:
+  read in beat form keyboard
+
+simple beat notation
+
+
+read from keyboard
+generate and store
+play out
+
+
+
+

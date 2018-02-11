@@ -1,0 +1,237 @@
+sf mid
+
+
+Nevermore
+
+     hp  damage
+lv1   5  1
+lv2   7  1
+lv3  10  2
+
+
+attack range :: 2 hexes
+
+
+
+
+Cards:
+    Raze :: (3 cards at ranges (1, 2, 3) respectively)
+        8 initiative
+        ground target at range
+
+        costs 1 mana
+        deal 1/2/3 damage
+
+        (1xp) learn
+        (2*1xp) increment damage
+
+    Necromastery :: passive
+        Each kill grants 1 soul.
+        Maximum 3/6/9/12/15/18 souls.
+        For every 6 souls you have, +1 attack damage.
+
+        (1xp) learn
+        (5*1xp) increase maximum souls by 3
+
+    Requiem :: (1 card)
+        2 initiative; fires immediately on death.
+
+        Sets your souls back to 0.
+
+        Damages all enemies based on distance from Nevermore and number of souls released.
+        adjacent :: 1 damage per 2 souls
+        2 spaces :: 1 damage per 3 souls
+        3 spaces :: 1 damage per 4 souls
+
+        (1xp, lv2) learn
+
+    General
+        move (3 cards)
+        attack (3 cards)
+
+    Talents
+              (1xp) +1 move card
+              (1xp) +1 attack card
+        (lv2) (1xp) +2 hitpoints
+        (lv3) (1xp) +1 attack range
+        (lv3) (1xp) when you would deal at least 3 magic damage, deal that much plus one
+
+
+Boots of Speed (8 gold)
+    Swiftness :: (1 card)
+        15 initiative
+        walk one hex
+
+BKB (80 gold)
+
+    +1 HP; +1 Damage
+
+    Spell Shield :: (1 card)
+        initiative 20
+        You have spell immunity.
+        Unless an ability "pierces spell immunity", it can neither target nor effect you.
+        You cannot take magic damage.
+
+Bottle  (15 gold)
+    Chug :: (3 cards)
+        Target self or adjacent ally.
+        Give them this card. If they take damage, return it to Nevermore's bottle discard.
+        On initiative 5, restore 1 hp and 1 mana, return it to Nevermore's bottle discard.
+
+    Refill :: (1 card)
+        initiative -5
+        Target adjacent ally.
+        If ally was in fountain this phase, refill the bottle.
+
+
+
+
+
+
+
+
+
+lv8 Nevermore
+
+3x attack cards
+    tap one to attack
+3x move cards
+    tap one to move
+
+delay  0 - instant
+delay 12 - standard walking
+
+20 max delay in a turn
+
+
+
+tracked stats: hp, mana, attack
+
+Dazzle - Mage
+
+hp: 5 / 8 / 11 / 14
+mn: 4 / 7 / 10 / 13
+
+1 atk
+
+Poison Touch (2 cards)
+    1 mana
+    targets chosen enemy in 2 squares
+
+      speed 20: give target this card. Target has -10 speed on all abilties.
+    @ speed  3: deals 1/2/3 physical damage. Return to Dazzle.
+
+    (1xp) right before dealing damage, stun 1
+
+Shallow Grave
+    2 mana
+    (1 card, 2 cooldown cards)
+
+    speed 12/15/18:
+        give to self or ally within 2/3/4 spaces
+    while held:
+        You take damage fully.
+        When you would set your hp to 0 or below, set it to 1 instead.
+        Return
+
+    (1xp) remove a cooldown card
+    (1xp) increase range by 1, to a maximum of 4
+    (1xp) increase speed by 3, to a maximum of 18
+
+Shadow Wave (2 cards)
+    1 mana
+
+
+    active effect:
+        Heal yourself 1
+        Choose 2/3/4 adjacent allies within 4 squares.
+
+
+
+
+Drow
+Tidehunter
+
+
+
+
+
+
+
+Round Start
+    everyone untap their cards
+
+    player1 has priority. They choose a number of cards, and specify targets.
+    player2 can then choose to play a number of cards the same way.
+    repeat until both players pass.
+
+    Then, all the cast cards execute, fastest card first.
+
+        "my lion casts impale" speed 12
+        "my puck uses phase shift to dodge that" speed 18
+        "alright" "alright"
+
+        phase shift procs, puck is invincible.
+        impale procs, lion must pay mana cost, but it has no effect.
+
+    Next, priority passes to the other player.
+
+        "my slardar uses blink+crush on puck" speed 17
+        "my puck has blink, but its only speed 15. I should've used it last turn. Oh well..."
+
+        blink procs, slardar teleports 2 hexes
+        crush procs, slardar deals damage and stuns puck
+
+    The player with priority wins ties.
+    The round ends when both players decide to pass on starting a new phase.
+
+
+"my lina uses euls"
+    Lina discharges 2 mana.
+    Give euls card to target. Target is invincible this phase.
+
+Round ends:
+"my lina uses lsa targetting this hex"
+    Lina discharges 1 mana.
+    Return euls card to lina.
+
+
+Eul's Scepter of Divinity.
+    2 mana, speed 19
+    Give this card to target. Target is invincible this phase.
+    Next phase, target has -10 speed to everything. At the end of this phase, return this card.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+{
+  "resources":[
+    {"name":"corn", "cost":0, "supply":10, ""}
+  ]
+}
+
+resource('corn',    supply=10, cost=0, processingPer=0)
+resource('indigo',  supply=11, cost=1)
+resource('sugar',   supply=11, cost=2)
+resource('tobacco', supply=9,  cost=3)
+resource('coffee',  supply=9,  cost=4)
+
+ name, cost, supply, farmPer=1, processingPer=1, captain_value=1):

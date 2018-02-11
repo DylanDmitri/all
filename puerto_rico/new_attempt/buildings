@@ -1,0 +1,36 @@
+Small Indigo Plant
+    tier 1, cost 1, jobs 1
+    production indigo
+
+Small Market
+    tier 1, cost 1, jobs 1
+    trader +1 profit
+
+Hacienda
+    tier 1, cost 2, jobs 1
+
+
+
+indigo1       = building('small indigo plant', 'production', tier=1, cost=1),
+sugar1        = building('small sugar mill', 'production', tier=1, cost=2),
+indigo3       = building('indigo plant', 'production',  tier=2, cost=3, max_workers=3),
+sugar3        = building('sugar mill', 'production',  tier=2, cost=4, max_workers=3),
+tobacco3      = building('tobacco storage', 'production',  tier=3, cost=5, max_workers=3),
+coffee2       = building('coffee roaster', 'production',  tier=3, cost=6, max_workers=2),
+market1       = building('small market', tier=1, cost=1),
+hacienda      = building('hacienda', tier=1, cost=2),
+hut           = building('construction hut', tier=1, cost=2),
+warehouse1    = building('small warehouse', tier=1, cost=3),
+hospice       = building('hospice', tier=2, cost=4),
+office        = building('office', tier=2, cost=5),
+market2       = building('large market', tier=2, cost=5),
+warehouse2    = building('large warehouse', tier=2, cost=6),
+university    = building('university', tier=3, cost=7),
+factory       = building('factory', tier=3, cost=8),
+harbor        = building('harbor', tier=3, cost=8),
+wharf         = building('wharf', tier=3, cost=9),
+guild_hall    = building('guild hall', tier=4, cost=10),
+fortress      = building('fortress', tier=4, cost=10),
+city_hall     = building('city hall', tier=4, cost=10),
+customs_house = building('customs house', tier=4, cost=10),
+residence     = building('residence', tier=4, cost=10),

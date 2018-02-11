@@ -1,0 +1,46 @@
+py
+    ASCII_DATA_OFFSET = 100
+
+    def get_binary(char):
+        if char not in mapping:
+            return '1'*24
+
+        string = mapping[char]
+        if (string[0]!=' ' or string[2]!=' '):
+            print('ERORR!')
+            print('on {}->{}'.format(char, string))
+            input()
+        seq = (string[4], string[3], *string[6:9], string[5], string[1])
+        return ''.join(str(int(c==' ')) for c in seq).rjust(24, '0')
+
+
+    s = "\t{} :\t{}\t;\n"
+
+    def getASCII_dataCodes():
+        r = ''
+        for i in range(150):
+            r += s.format(i+ASCII_DATA_OFFSET, get_binary(chr(i+ASCII_DATA_OFFSET)))
+        return r
+
+    endline = len(mapping) + ASCII_DATA_OFFSET
+
+
+
+ASCII_DATA_OFFSET -> 100    # Caps define constant. Immutable; macro'd in at compiler time.
+
+function GetBinary char
+    depends >> (param char)
+    return >> (string length:24 members:'01' default:'0' right_align)
+
+    char in mapping -> (=' ')?'01' ~ string@ ~ 4,3,$6..9,5,1
+    default -> '1'*24
+
+
+function AsciiDatacodes
+    depends >> (user function GetBinary)
+    return >> (string
+
+    s >> "\t{} :\t{}\t;\n"
+    sum: (s.format _ (GetBinary chr _)) ~ +ASCII_DATAOFFSET ~ 1..150
+
+

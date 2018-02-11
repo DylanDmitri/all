@@ -1,0 +1,13 @@
+how it works
+
+one mapping of:
+    choices -> gamestate
+
+eliminates re-calculating moves
+
+
+there's some dumb mechanics
+if mayor is never picked, the game never progresses
+desire to win should make the ai avoid this
+
+

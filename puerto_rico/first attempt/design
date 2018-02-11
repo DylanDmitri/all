@@ -1,0 +1,70 @@
+
+player engine
+    human or AI
+    receives decisions from
+
+player board
+
+
+
+
+
+player
+    farm spaces - plantations
+    city spaces - buildings
+    dubloons
+    barrels
+    victory points
+
+game state
+    plantations
+        quarries
+        reserve
+        active
+
+    colonists
+        ship
+        reserve
+
+    builder
+        buildings
+
+    craftsman
+        barrels
+
+    trader
+        trading house
+
+    captain
+        ships
+
+
+
+
+
+Board State
+
+
+
+
+            You
+
+Dubloons    10                           7
+VPs         34                           21
+
+Buildings   Small Market (!)             Sugar Mill      (1/3 staffed)
+            Indigo Plant (###)
+
+Plantations (8/10 max)
+    3xIndigo  _ _ _
+    2xCorn    # # _
+
+Production
+    3 Indigo, 2 Corn
+
+
+
+
+
+
+

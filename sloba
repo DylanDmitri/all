@@ -1,0 +1,150 @@
+
+Empirial Guard
+
+Soldiers (8gp each)
+    strength  1, max 5
+    mental    1, max 5
+
+    upgrading (strength/mental) requires xp equal to current stat
+
+    5 physical hp buffer
+    5 mental hp buffer
+    4 ms
+
+Skills. All require 2 mental, unless noted otherwise)
+
+    Willpower (1xp)
+        second nature: requires only one mental
+        When damage would reduce your physical, you may have it reduce your mental instead.
+
+    Nimble (2xp)
+        second nature: requires only one mental
+        Only active if you have an unused physical.
+        Once per turn, slide a square. Slides do not provoke opportunity attacks.
+
+    Leader (5xp)
+        truestrike: (active)
+            Target self or ally in hearing range.
+            Target's next attack is unblockable and ignores armor.
+            Buff expires at end of your next turn.
+        inspire courage: (active)
+            Target self or ally in hearing range.
+            Next time target takes mental damage, negate that damage.
+            Buff expires at end of your next turn.
+
+    Fighter (1xp)
+        muscle memory: takes no mental
+        Can use fighter equipment.
+        Can learn fighter skills.
+
+    Archer (2xp)
+        muscle memory: takes no mental
+        May use archer weapons.
+        May learn archer skills.
+
+
+    Spear Training (fighter, 2xp)
+        Gain reach while wielding a spear.
+
+    Swordsman (fighter, 3xp)
+        Once per turn, attack again with a wielded sword.
+
+    Fencer (fighter, 3xp)
+        Only active if you have an unused physical and are wielding a fighter weapon.
+        Gain 1 block per turn. Does not work vs ranged.
+
+    Armor User (fighter, 1xp)
+        second nature: takes only one mental
+        Reduce strength usage of armor by one, to a minimum of zero.
+
+    Dual Wield (fighter, 3xp)
+        tricky: requires three mental
+        May use any two weapons at once.
+
+
+    Battle Sense (archer, 3xp)
+        May shoot through allies.
+
+
+Equipment. All require 2 strength, unless noted otherwise.
+
+    Dagger (basic, 2gp)
+        lightweight - requires only one strength
+        2 damage
+
+    Mace (basic, 3gp)
+        heavy: reduces effective strength by one
+        4 damage
+
+    Crossbow (basic, 5gp)
+        4 damage; ranged; full turn reload
+
+    Spear (fighter, 2gp)
+        3 damage; reach with spearman skill
+
+    Sword (fighter, 4gp)
+        2 damage; double attack with swordsman skil
+
+    Shortbow (archer, 2gp)
+        2 damage; ranged
+
+    Longbow (archer, 3gp)
+        takes 3 free strength to use
+        3 damage; ranged
+
+    Round Shield (fighter, 2gp)
+        lightweight - requires only one strength
+        grants 1 block per turn
+
+    Tower Shield (fighter, 4gp)
+        grants 1 block per turn
+        grants infinite blocks vs projectiles
+
+    Banded Armor (4gp)
+        lightweight - requires only one strength
+        When you take damage, reduce that damage by one.
+
+
+Spear Conscript
+
+    Round Shield, Spear
+    Fighter, Spear Training
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+elven resistance
+(mobile hit and run, squishy)
+
+northerners
+()
+
+orcish horde
+(brute force)
+
+undead
+(expensive liches leading cheap swarms)
+
+drakes
+(expensive fliers)
+
+
+
+
+
+
+
+
+
+

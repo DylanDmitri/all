@@ -1,0 +1,179 @@
+
+Each Round:
+    draw cards
+    play 5 phases
+
+Each Phase:
+    all heroes choose an action card, and targets/directions for that card
+    cards execute in order of priority
+
+
+           health   attack  stun    wave    aura    swap
+discard :  --       --
+pool    :  4                2       1       1
+hand    :
+
+            slot1   slot2   slot3   slot4   slot5   slot6
+discard :
+pool    :
+hand    :
+
+active effects: [ ]
+
+
+per manapool increase:
+    choose either "magic missile" or "nether swap"
+    add a token to the chosen pool
+per mana regen:
+    choose either "magic missile" or "nether swap"
+    move a token from that discard to that pool
+
+
+
+Start with 6 hp, and 2 tokens in the "magic missile" pool.
+
+base        hp  mana  damage
+    lv  1    6   2
+    lv  2
+    lv  3   +1  +1
+    lv  4
+    lv  5   +1
+    lv  6       +1
+    lv  7   +1
+    lv  8
+    lv  9   +1  +1
+    lv 10
+    lv 11   +1
+    lv 12       +1
+    lv 13   +1
+    lv 14
+    lv 15   +1
+    lv 16
+    lv 17   +1
+    lv 18
+    lv 19   +1
+    lv 20
+
+stun (magic attack):
+
+    upgrades (costs exp):
+                ( ) increase stun duration by one
+        ( ) ( ) ( ) increase magic damage by one
+                ( ) ignores spell immunity
+
+    round start -
+        draw from pool until you have two in hand
+
+    on cast -
+        targets chosen enemy within same hex
+        can be disjointed
+
+    on impact -
+        deal 1/2/3/4 magic damage to target
+        if target has not acted this phase, it is as though they have chosen an action card
+            generally, return the action card to their hand
+        attach 1/2 "stun" cards to target
+        return Magic Missile to Vengeful Spirit's discard pile
+
+wave:
+
+    upgrades (costs exp):
+                ( ) deals one damage one hit
+        ( ) ( ) ( )
+                ( )
+aura:
+    round start -
+        draw 1 from pool
+
+
+swap:
+    round start -
+        draw 1 from pool
+
+    on cast -
+        cast requires two cards,
+
+clarity (50g) (item - consumable - stackable)
+
+    on purchase -
+        add one card to the item slot "pool"
+
+    round start -
+        may choose to give card to self/ally in same hex
+            card goes into the "active effects" zone
+
+    active effect -
+        if you take damage from an enemy hero, remove this card from the game
+        at round end, regen one mana, remove this card from the game.
+
+
+
+
+
+all actions
+    move
+    attack
+    ability
+
+
+base     6       2     1      2
+        health  mana  damage  attacks
+tier2   +2      +2            +1
+tier3   +3      +1            +1
+tier4   +2      +2    +1
+tier5   +3      +1            +1
+
++2 moves per turn
+ moves max
+
+
+disconnected from dota
+make a game with interesting and meaningful decisions
+
+played on a hex grid
+
+move
+attack
+spell
+item
+
+dragon slave
+    2 range linear aoe
+    4 damage
+    lowish priority
+
+lsa
+    2 range cluster target
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

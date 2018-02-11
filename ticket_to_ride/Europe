@@ -1,0 +1,90 @@
+edinburgh-london 4 orange/black
+london-dieppe 2 1f/1f
+dieppe-brest 2 orange
+brest-paris 3 black
+brest-pamplona 4 pink
+pamplona-paris 4 green/blue
+dieppe-paris 1 pink
+dieppe-brussels 2 green
+brussels-paris 2 yellow/red
+paris-marseilles 4 grey
+marseilles-barcelona 4 grey
+marseilles-pamplona 4 red
+pamplona-madrid 3 black/white t
+pamplona-barcelona 2 grey t
+barcelona-madrid 2 yellow
+madrid-cadiz 3 orange
+cadiz-lisbon 2 blue
+madrid-lisbon 3 pink
+marseilles-zurich 2 pink t
+marseilles-rome 4 grey t
+zurich-paris 3 grey t
+zurich-venice 2 green tunnel
+venice-rome 2 black
+zurich-munich 2 yellow t
+venice-munich 2 blue tunnel
+munich-wien 3 orange
+wien-zagrab 2 grey
+venice-zagrab 2 grey
+zagrab-budapest 2 orange
+zagrab-sarajevo 3 red
+sarajevo-budapest 3 pink
+sarajevo-athens 4 green
+athens-brindisi 4 1f
+brindisi-rome 2 white
+rome-palermo 4 1f
+palermo-brindisi 3 1f
+athens-smyrna 2 1f
+palermo-smyrna 6 2f
+smyrna-constantinople 2 grey t
+smyrna-angora 3 orange t
+constantinople-angora 2 grey t
+angora-erzurum 3 black
+sophia-constantinople 3 blue
+sophia-athens 3 pink
+sophia-sarajevo 2 grey t
+sophia-bucharest 2 grey t
+bucharest-constantinople 3 yellow
+bucharest-budapest 4 grey t
+budapest-wien 1 white/red
+berlin-wien 3 green
+berlin-frankfurt 3 black/red
+frankfurt-munich 2 pink
+paris-frankfurt 3 white/orange
+frankfurt-brussels 2 blue
+frankfurt-amsterdam 2 white
+amsterdam-brussels 1 black
+frankfurt-essen 2 green
+amsterdam-london 2 2f
+essen-copenhagen 3 1f/1f
+copenhagen-stockholm 3 yellow/white
+essen-berlin 2 blue
+essen-amsterdam 3 yellow
+stockholm-petrograd 8 grey t
+berlin-danzig 4 grey
+berlin-warsaw 4 pink/yellow
+warsaw-wien 4 blue
+danzig-warsaw 2 grey
+danzig-riga 3 black
+riga-petrograd 4 grey
+riga-wilno 4 green
+warsaw-wilno 3 red
+wilno-petrograd 4 blue
+warsaw-kiev 4 grey
+kiev-budapest 6 grey t
+kiev-bucharest 4 grey
+kiev-wilno 2 grey
+wilno-smolensk 3 yellow
+smolensk-kiev 3 red
+smolensk-moscow 2 orange
+petrograd-moscow 4 white
+moscow-karkov 4 grey
+karkov-kiev 4 grey
+karkov-rostov 2 green
+rostov-sevast 4 grey
+sevast-bucharest 4 white
+rostov-sochi 2 grey
+sevast-sochi 2 1f
+sochi-erzurum 3 red t
+sevast-erzurum 4 2f
+sevast-constantinople 4 2f

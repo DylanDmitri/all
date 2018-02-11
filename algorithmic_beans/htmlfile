@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../libraries/qunit/qunit.css">
+  <title>Unit Tests: Public Transit Simulator</title>
+</head>
+
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+    <div id="visualization"></div>
+  </div>
+  <script src="../libraries/qunit/qunit.js"></script>
+  <script src="overrides.js"></script>
+
+  <script src="../libraries/jquery/jquery.min.js"></script>
+  <script src="../libraries/jquery-ui/jquery-ui.min.js"></script>
+  <script src="../libraries/jquery-svg/jquery.svg.min.js"></script>
+  <script src="../libraries/jquery-svg/jquery.svgdom.min.js"></script>
+  <script src="../libraries/jquery-svg/jquery.svganim.min.js"></script>
+
+  <script src="../js/utility.js"></script>
+  <script src="test_utility.js"></script>
+
+  <script src="../js/control_inversion.js"></script>
+  <script src="test_control_inversion.js"></script>
+
+  <script src="../js/simulation.js"></script>
+  <script src="test_simulation.js"></script>
+
+  <script src="../js/undirected_graph.js"></script>
+  <script src="test_undirected_graph.js"></script>
+
+  <script src="../js/transit.js"></script>
+  <script src="test_transit.js"></script>
+
+  <script src="../js/patching.js"></script>
+  <script src="test_patching.js"></script>
+
+  <script src="../js/positioned_graph.js"></script>
+  <script src="test_positioned_graph.js"></script>
+
+  <script src="../js/throttled_simulation.js"></script>
+  <script src="test_throttled_simulation.js"></script>
+
+  <script src="../js/loading.js"></script>
+  <script src="test_loading.js"></script>
+</body>
+
+</html>
+
